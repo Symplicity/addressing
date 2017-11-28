@@ -1,83 +1,111 @@
 {
 	"country_code": "PE",
+	"parent_id": null,
+	"locale": "und",
 	"subdivisions": {
-		"Amazonas": {
-			"iso_code": "PE-AMA"
+		"PE-LMA": {
+			"code": "LMA",
+			"name": "Municipalidad Metropolitana de Lima"
 		},
-		"Áncash": {
-			"iso_code": "PE-ANC"
+		"PE-AMA": {
+			"code": "AMA",
+			"name": "Amazonas"
 		},
-		"Apurímac": {
-			"iso_code": "PE-APU"
+		"PE-ANC": {
+			"code": "ANC",
+			"name": "Ancash"
 		},
-		"Arequipa": {
-			"iso_code": "PE-ARE"
+		"PE-APU": {
+			"code": "APU",
+			"name": "Apurímac"
 		},
-		"Ayacucho": {
-			"iso_code": "PE-AYA"
+		"PE-ARE": {
+			"code": "ARE",
+			"name": "Arequipa"
 		},
-		"Cajamarca": {
-			"iso_code": "PE-CAJ"
+		"PE-AYA": {
+			"code": "AYA",
+			"name": "Ayacucho"
 		},
-		"Callao": {
-			"iso_code": "PE-CAL"
+		"PE-CAJ": {
+			"code": "CAJ",
+			"name": "Cajamarca"
 		},
-		"Cuzco": {
-			"iso_code": "PE-CUS"
+		"PE-CUS": {
+			"code": "CUS",
+			"name": "Cusco"
 		},
-		"Gobierno Regional de Lima": {
-			"iso_code": "PE-LIM"
+		"PE-CAL": {
+			"code": "CAL",
+			"name": "El Callao"
 		},
-		"Huancavelica": {
-			"iso_code": "PE-HUV"
+		"PE-HUV": {
+			"code": "HUV",
+			"name": "Huancavelica"
 		},
-		"Huánuco": {
-			"iso_code": "PE-HUC"
+		"PE-HUC": {
+			"code": "HUC",
+			"name": "Huánuco"
 		},
-		"Ica": {
-			"iso_code": "PE-ICA"
+		"PE-ICA": {
+			"code": "ICA",
+			"name": "Ica"
 		},
-		"Junín": {
-			"iso_code": "PE-JUN"
+		"PE-JUN": {
+			"code": "JUN",
+			"name": "Junín"
 		},
-		"La Libertad": {
-			"iso_code": "PE-LAL"
+		"PE-LAL": {
+			"code": "LAL",
+			"name": "La Libertad"
 		},
-		"Lambayeque": {
-			"iso_code": "PE-LAM"
+		"PE-LAM": {
+			"code": "LAM",
+			"name": "Lambayeque"
 		},
-		"Loreto": {
-			"iso_code": "PE-LOR"
+		"PE-LIM": {
+			"code": "LIM",
+			"name": "Lima"
 		},
-		"Madre de Dios": {
-			"iso_code": "PE-MDD"
+		"PE-LOR": {
+			"code": "LOR",
+			"name": "Loreto"
 		},
-		"Moquegua": {
-			"iso_code": "PE-MOQ"
+		"PE-MDD": {
+			"code": "MDD",
+			"name": "Madre de Dios"
 		},
-		"Municipalidad Metropolitana de Lima": {
-			"iso_code": "PE-LMA"
+		"PE-MOQ": {
+			"code": "MOQ",
+			"name": "Moquegua"
 		},
-		"Pasco": {
-			"iso_code": "PE-PAS"
+		"PE-PAS": {
+			"code": "PAS",
+			"name": "	Pasco"
 		},
-		"Piura": {
-			"iso_code": "PE-PIU"
+		"PE-Piura": {
+			"code": "Piura",
+			"name": "Piura"
 		},
-		"Puno": {
-			"iso_code": "PE-PUN"
+		"PE-PUN": {
+			"code": "PUN",
+			"name": "Puno"
 		},
-		"San Martín": {
-			"iso_code": "PE-SAM"
+		"PE-SAM": {
+			"code": "SAM",
+			"name": "San Martín"
 		},
-		"Tacna": {
-			"iso_code": "PE-TAC"
+		"PE-TAC": {
+			"code": "TAC",
+			"name": "Tacna"
 		},
-		"Tumbes": {
-			"iso_code": "PE-TUM"
+		"PE-TUM": {
+			"code": "TUM",
+			"name": "Tumbes"
 		},
-		"Ucayali": {
-			"iso_code": "PE-UCA"
+		"PE-UCA": {
+			"code": "UCA",
+			"name": "Ucayali"
 		}
 	}
 }
