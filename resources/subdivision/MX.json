@@ -33,6 +33,11 @@
 			"name": "Chihuahua",
 			"postal_code_pattern": "3[1-3]"
 		},
+		"MX-CMX": {
+                       "code": "CDMX",
+		        "name": "Ciudad de México",
+		        "postal_code_pattern": "0|1[0-6]"
+		},
 		"MX-COA": {
 			"code": "COAH",
 			"name": "Coahuila",
@@ -42,11 +47,6 @@
 			"code": "COL",
 			"name": "Colima",
 			"postal_code_pattern": "28"
-		},
-		"MX-DIF": {
-			"code": "D.F.",
-			"name": "Distrito Federal",
-			"postal_code_pattern": "0|1[0-6]"
 		},
 		"MX-DUR": {
 			"code": "DGO",
