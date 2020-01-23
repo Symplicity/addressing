@@ -1,5 +1,5 @@
 {
-	"locale": "und",
+	"locale": "en",
 	"format": "%recipient\n%organization\n%addressLine1\n%addressLine2\n%locality, %administrativeArea %postalCode",
 	"required_fields": [
 		"recipient",
@@ -16,7 +16,7 @@
 		"organization",
 		"administrativeArea"
 	],
-	"administrative_area_type": "state",
+	"administrative_area_type": "island",
 	"locality_type": "city",
 	"postal_code_type": "zip",
 	"postal_code_pattern": "(008(?:(?:[0-4]\\d)|(?:5[01])))(?:[ \\-](\\d{4}))?"
