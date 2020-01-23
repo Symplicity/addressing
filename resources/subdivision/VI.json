@@ -1,0 +1,19 @@
+{
+	"country_code": "VI",
+	"parent_id": null,
+	"locale": "en",
+	"subdivisions": {
+		"VI-SC": {
+			"code": "SC",
+			"name": "Saint Croix"
+		},
+		"VI-SJ": {
+			"code": "SJ",
+			"name": "Saint John"
+		},
+		"VI-ST": {
+			"code": "ST",
+			"name": "Saint Thomas"
+		}
+	}
+}
