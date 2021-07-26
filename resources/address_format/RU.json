@@ -13,7 +13,7 @@
 		"addressLine2",
 		"locality"
 	],
-	"administrative_area_type": "oblast",
+	"administrative_area_type": "area",
 	"locality_type": "city",
 	"postal_code_type": "postal",
 	"postal_code_pattern": "\\d{6}"

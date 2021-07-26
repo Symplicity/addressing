@@ -15,10 +15,10 @@ final class AdministrativeAreaType extends AbstractEnum
     const COUNTY = 'county';
     const DEPARTMENT = 'department';
     const DISTRICT = 'district';
-    const DO_SI = 'do_si';
+    const DO_SI = 'province';
     const EMIRATE = 'emirate';
     const ISLAND = 'island';
-    const OBLAST = 'oblast';
+    const OBLAST = 'area';
     const PARISH = 'parish';
     const PREFECTURE = 'prefecture';
     const PROVINCE = 'province';

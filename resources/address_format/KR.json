@@ -11,7 +11,7 @@
 	"uppercase_fields": [
 		"postalCode"
 	],
-	"administrative_area_type": "do_si",
+	"administrative_area_type": "province",
 	"locality_type": "city",
 	"dependent_locality_type": "district",
 	"postal_code_type": "postal",
