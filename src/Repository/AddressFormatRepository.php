@@ -81,14 +81,16 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
     {
         if (!isset($this->definitions[$countryCode])) {
             $filename = $this->definitionPath . $countryCode . '.json';
-            $rawDefinition = @file_get_contents($filename);
-            if ($rawDefinition) {
-                $rawDefinition = json_decode($rawDefinition, true);
-                $rawDefinition['country_code'] = $countryCode;
-                $this->definitions[$countryCode] = $rawDefinition;
-            } else {
-                // Bypass further loading attempts.
-                $this->definitions[$countryCode] = [];
+            if (file_exists($filename)) {
+                $rawDefinition = @file_get_contents($filename);
+                if ($rawDefinition) {
+                    $rawDefinition = json_decode($rawDefinition, true);
+                    $rawDefinition['country_code'] = $countryCode;
+                    $this->definitions[$countryCode] = $rawDefinition;
+                } else {
+                    // Bypass further loading attempts.
+                    $this->definitions[$countryCode] = [];
+                }
             }
         }
 
