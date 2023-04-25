@@ -1,0 +1,32 @@
+{
+	"country_code": "ZA",
+	"subdivisions": {
+		"EC": {
+			"name": "Eastern Cape"
+		},
+		"FS": {
+			"name": "Free"
+		},
+		"GT": {
+			"name": "Gauteng"
+		},
+		"LP": {
+			"name": "Limpopo"
+		},
+		"MP": {
+			"name": "Mpumalanga"
+		},
+		"NC": {
+			"name": "Northern Cape"
+		},
+		"NL": {
+			"name": "KwaZulu-Natal"
+		},
+		"NW": {
+			"name": "North West"
+		},
+		"WC": {
+			"name": "Western Cape"
+		}
+	}
+}

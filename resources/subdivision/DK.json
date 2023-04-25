@@ -1,0 +1,68 @@
+{
+    "country_code": "DK",
+    "subdivisions": {
+        "040": {
+            "name": "Bornholm"
+        },
+        "84": {
+            "name": "Capital"
+        },
+        "82": {
+            "name": "Central Denmark Region"
+        },
+        "147": {
+            "name": "Frederiksberg City"
+        },
+        "020": {
+            "name": "Frederiksborg"
+        },
+        "042": {
+            "name": "Funen"
+        },
+        "015": {
+            "name": "Copenhagen"
+        },
+        "101": {
+            "name": "København City"
+        },
+        "080": {
+            "name": "North Jutland"
+        },
+        "81": {
+            "name": "North Jutland"
+        },
+        "055": {
+            "name": "Ribe"
+        },
+        "065": {
+            "name": "Ringkøbing"
+        },
+        "025": {
+            "name": "Roskilde"
+        },
+        "83": {
+            "name": "Region of Southern Denmark"
+        },
+        "035": {
+            "name": "Storstrøm County"
+        },
+        "050": {
+            "name": "Southern Jutland"
+        },
+        "060": {
+            "name": "Vejle"
+        },
+        "030": {
+            "name": "West Zealand County"
+        },
+        "076": {
+            "name": "Viborg"
+        },
+        "85": {
+            "name": "Zeeland"
+        },
+        "070": {
+            "name": "Aarhus"
+        }
+    }
+}

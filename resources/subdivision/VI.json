@@ -1,0 +1,14 @@
+{
+	"country_code": "VI",
+	"subdivisions": {
+		"SC": {
+			"name": "Saint Croix"
+		},
+		"SJ": {
+			"name": "Saint John"
+		},
+		"ST": {
+			"name": "Saint Thomas"
+		}
+	}
+}

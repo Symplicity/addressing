@@ -1,0 +1,77 @@
+{
+    "country_code": "TN",
+    "subdivisions": {
+        "12": {
+            "name": "Ariana"
+        },
+        "13": {
+            "name": "Ben Arous"
+        },
+        "23": {
+            "name": "Bizerte"
+        },
+        "31": {
+            "name": "Béja"
+        },
+        "81": {
+            "name": "Gabès"
+        },
+        "71": {
+            "name": "Gafsa"
+        },
+        "32": {
+            "name": "Jendouba"
+        },
+        "41": {
+            "name": "Kairouan"
+        },
+        "42": {
+            "name": "Kasserine"
+        },
+        "73": {
+            "name": "Kebili"
+        },
+        "14": {
+            "name": "Manouba"
+        },
+        "33": {
+            "name": "El Kef"
+        },
+        "53": {
+            "name": "Mahdia"
+        },
+        "82": {
+            "name": "Medenine"
+        },
+        "52": {
+            "name": "Monastir"
+        },
+        "21": {
+            "name": "Nabeul"
+        },
+        "61": {
+            "name": "Sfax"
+        },
+        "43": {
+            "name": "Sidi Bouzid"
+        },
+        "34": {
+            "name": "Siliana"
+        },
+        "51": {
+            "name": "Sousse"
+        },
+        "83": {
+            "name": "Tataouine"
+        },
+        "72": {
+            "name": "Tozeur"
+        },
+        "11": {
+            "name": "Tunis"
+        },
+        "22": {
+            "name": "Zaghouan"
+        }
+    }
+}

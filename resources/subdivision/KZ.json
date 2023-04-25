@@ -1,0 +1,56 @@
+{
+	"country_code": "KZ",
+	"subdivisions": {
+		"AKM": {
+			"name": "Akmola"
+		},
+		"AKT": {
+			"name": "Aktobe"
+		},
+		"ALA": {
+			"name": "Almaty"
+		},
+		"ALM": {
+			"name": "Almaty Region"
+		},
+		"AST": {
+			"name": "Astana"
+		},
+		"ATY": {
+			"name": "Atyrau"
+		},
+		"BAY": {
+			"name": "Bayqongyr"
+		},
+		"KAR": {
+			"name": "Karagandy"
+		},
+		"KUS": {
+			"name": "Kostanay"
+		},
+		"KZY": {
+			"name": "Kyzylorda"
+		},
+		"MAN": {
+			"name": "Mangystau"
+		},
+		"PAV": {
+			"name": "Pavlodar"
+		},
+		"SEV": {
+			"name": "North Kazakhstan"
+		},
+		"VOS": {
+			"name": "East Kazakhstan"
+		},
+		"YUZ": {
+			"name": "South Kazakhstan"
+		},
+		"ZAP": {
+			"name": "West Kazakhstan"
+		},
+		"ZHA": {
+			"name": "Jambyl"
+		}
+	}
+}

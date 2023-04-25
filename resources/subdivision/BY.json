@@ -1,0 +1,26 @@
+{
+	"country_code": "BY",
+	"subdivisions": {
+		"BR": {
+			"name": "Brest"
+		},
+		"HM": {
+			"name": "Minsk"
+		},
+		"HO": {
+			"name": "Homel"
+		},
+		"HR": {
+			"name": "Hrodna"
+		},
+		"MA": {
+			"name": "Magileu"
+		},
+		"MI": {
+			"name": "Minsk Region"
+		},
+		"VI": {
+			"name": "Vitebsk"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"country_code": "MH",
+	"subdivisions": {
+		"ALK": {
+			"name": "Ailuk Atoll"
+		},
+		"ALL": {
+			"name": "Ailinglaplap Atoll"
+		},
+		"ARN": {
+			"name": "Arno"
+		},
+		"AUR": {
+			"name": "Aur Atoll"
+		},
+		"EBO": {
+			"name": "Ebon Atoll"
+		},
+		"ENI": {
+			"name": "Enewetak Atoll"
+		},
+		"JAB": {
+			"name": "Jabat Island"
+		},
+		"JAL": {
+			"name": "Jaluit Atoll"
+		},
+		"KIL": {
+			"name": "Kili Island"
+		},
+		"KWA": {
+			"name": "Kwajalein"
+		},
+		"L": {
+			"name": "Ralik Chain"
+		},
+		"LAE": {
+			"name": "Lae Atoll"
+		},
+		"LIB": {
+			"name": "Lib Island"
+		},
+		"LIK": {
+			"name": "Likiep Atoll"
+		},
+		"MAJ": {
+			"name": "Majuro"
+		},
+		"MAL": {
+			"name": "Maloelap Atoll"
+		},
+		"MEJ": {
+			"name": "Mejit Island"
+		},
+		"MIL": {
+			"name": "Mili Atoll"
+		},
+		"NMK": {
+			"name": "Namdrik Atoll"
+		},
+		"NMU": {
+			"name": "Namu Atoll"
+		},
+		"RON": {
+			"name": "Rongelap Atoll"
+		},
+		"T": {
+			"name": "Ratak Chain"
+		},
+		"UJA": {
+			"name": "Ujae Atoll"
+		},
+		"UTI": {
+			"name": "Utirik Atoll"
+		},
+		"WTH": {
+			"name": "Wotho Atoll"
+		},
+		"WTJ": {
+			"name": "Wotje Atoll"
+		}
+	}
+}
