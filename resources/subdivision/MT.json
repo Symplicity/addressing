@@ -1,0 +1,280 @@
+{
+    "country_code": "MT",
+    "parent_id": null,
+    "locale": "en",
+    "subdivisions": 
+    {
+        "MT-01": {
+            "code": "MT-01",
+            "name": "Attard"
+        },
+        "MT-02": {
+            "code": "MT-02",
+            "name": "Balzan"
+        },
+        "MT-03": {
+            "code": "MT-03",
+            "name": "Birgu"
+        },
+        "MT-04": {
+            "code": "MT-04",
+            "name": "Birkirkara"
+        },
+        "MT-05": {
+            "code": "MT-05",
+            "name": "Birżebbuġa"
+        },
+        "MT-06": {
+            "code": "MT-06",
+            "name": "Bormla"
+        },
+        "MT-07": {
+            "code": "MT-07",
+            "name": "Dingli"
+        },
+        "MT-08": {
+            "code": "MT-08",
+            "name": "Fgura"
+        },
+        "MT-09": {
+            "code": "MT-09",
+            "name": "Floriana"
+        },
+        "MT-10": {
+            "code": "MT-10",
+            "name": "Fontana"
+        },
+        "MT-11": {
+            "code": "MT-11",
+            "name": "Gudja"
+        },
+        "MT-12": {
+            "code": "MT-12",
+            "name": "Gżira"
+        },
+        "MT-13": {
+            "code": "MT-13",
+            "name": "Għajnsielem"
+        },
+        "MT-14": {
+            "code": "MT-14",
+            "name": "Għarb"
+        },
+        "MT-15": {
+            "code": "MT-15",
+            "name": "Għargħur"
+        },
+        "MT-16": {
+            "code": "MT-16",
+            "name": "Għasri"
+        },
+        "MT-17": {
+            "code": "MT-17",
+            "name": "Għaxaq"
+        },
+        "MT-18": {
+            "code": "MT-18",
+            "name": "Ħamrun"
+        },
+        "MT-19": {
+            "code": "MT-19",
+            "name": "Iklin"
+        },
+        "MT-20": {
+            "code": "MT-20",
+            "name": "Isla"
+        },
+        "MT-21": {
+            "code": "MT-21",
+            "name": "Kalkara"
+        },
+        "MT-22": {
+            "code": "MT-22",
+            "name": "Kerċem"
+        },
+        "MT-23": {
+            "code": "MT-23",
+            "name": "Kirkop"
+        },
+        "MT-24": {
+            "code": "MT-24",
+            "name": "Lija"
+        },
+        "MT-25": {
+            "code": "MT-25",
+            "name": "Luqa"
+        },
+        "MT-26": {
+            "code": "MT-26",
+            "name": "Marsa"
+        },
+        "MT-27": {
+            "code": "MT-27",
+            "name": "Marsaskala"
+        },
+        "MT-28": {
+            "code": "MT-28",
+            "name": "Marsaxlokk"
+        },
+        "MT-29": {
+            "code": "MT-29",
+            "name": "Mdina"
+        },
+        "MT-30": {
+            "code": "MT-30",
+            "name": "Mellieħa"
+        },
+        "MT-31": {
+            "code": "MT-31",
+            "name": "Mġarr"
+        },
+        "MT-32": {
+            "code": "MT-32",
+            "name": "Mosta"
+        },
+        "MT-33": {
+            "code": "MT-33",
+            "name": "Mqabba"
+        },
+        "MT-34": {
+            "code": "MT-34",
+            "name": "Msida"
+        },
+        "MT-35": {
+            "code": "MT-35",
+            "name": "Mtarfa"
+        },
+        "MT-36": {
+            "code": "MT-36",
+            "name": "Munxar"
+        },
+        "MT-37": {
+            "code": "MT-37",
+            "name": "Nadur"
+        },
+        "MT-38": {
+            "code": "MT-38",
+            "name": "Naxxar"
+        },
+        "MT-39": {
+            "code": "MT-39",
+            "name": "Paola"
+        },
+        "MT-40": {
+            "code": "MT-40",
+            "name": "Pembroke"
+        },
+        "MT-41": {
+            "code": "MT-41",
+            "name": "Pietà"
+        },
+        "MT-42": {
+            "code": "MT-42",
+            "name": "Qala"
+        },
+        "MT-43": {
+            "code": "MT-43",
+            "name": "Qormi"
+        },
+        "MT-44": {
+            "code": "MT-44",
+            "name": "Qrendi"
+        },
+        "MT-45": {
+            "code": "MT-45",
+            "name": "Rabat Għawdex"
+        },
+        "MT-46": {
+            "code": "MT-46",
+            "name": "Rabat Malta"
+        },
+        "MT-47": {
+            "code": "MT-47",
+            "name": "Safi"
+        },
+        "MT-48": {
+            "code": "MT-48",
+            "name": "San Ġiljan"
+        },
+        "MT-49": {
+            "code": "MT-49",
+            "name": "San Ġwann"
+        },
+        "MT-50": {
+            "code": "MT-50",
+            "name": "San Lawrenz"
+        },
+        "MT-51": {
+            "code": "MT-51",
+            "name": "San Pawl il-Baħar"
+        },
+        "MT-52": {
+            "code": "MT-52",
+            "name": "Sannat"
+        },
+        "MT-53": {
+            "code": "MT-53",
+            "name": "Santa Luċija"
+        },
+        "MT-54": {
+            "code": "MT-54",
+            "name": "Santa Venera"
+        },
+        "MT-55": {
+            "code": "MT-55",
+            "name": "Siġġiewi"
+        },
+        "MT-56": {
+            "code": "MT-56",
+            "name": "Sliema"
+        },
+        "MT-57": {
+            "code": "MT-57",
+            "name": "Swieqi"
+        },
+        "MT-58": {
+            "code": "MT-58",
+            "name": "Ta' Xbiex"
+        },
+        "MT-59": {
+            "code": "MT-59",
+            "name": "Tarxien"
+        },
+        "MT-60": {
+            "code": "MT-60",
+            "name": "Valletta"
+        },
+        "MT-61": {
+            "code": "MT-61",
+            "name": "Xagħra"
+        },
+        "MT-62": {
+            "code": "MT-62",
+            "name": "Xewkija"
+        },
+        "MT-63": {
+            "code": "MT-63",
+            "name": "Xgħajra"
+        },
+        "MT-64": {
+            "code": "MT-64",
+            "name": "Żabbar"
+        },
+        "MT-65": {
+            "code": "MT-65",
+            "name": "Żebbuġ Għawdex"
+        },
+        "MT-66": {
+            "code": "MT-66",
+            "name": "Żebbuġ Malta"
+        },
+        "MT-67": {
+            "code": "MT-67",
+            "name": "Żejtun"
+        },
+        "MT-68": {
+            "code": "MT-68",
+            "name": "Żurrieq"
+        }
+    }
+}
