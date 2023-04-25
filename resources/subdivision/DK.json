@@ -1,89 +1,68 @@
 {
     "country_code": "DK",
     "subdivisions": {
-        "B": {
-            "name": "Bornholm",
-            "code": "DK-040"
+        "040": {
+            "name": "Bornholm"
         },
-        "CA": {
-            "name": "Capital",
-            "code": "DK-84"
+        "84": {
+            "name": "Capital"
         },
-        "CDR": {
-            "name": "Central Denmark Region",
-            "code": "DK-82"
+        "82": {
+            "name": "Central Denmark Region"
         },
-        "FC": {
-            "name": "Frederiksberg City",
-            "code": "DK-147"
+        "147": {
+            "name": "Frederiksberg City"
         },
-        "F": {
-            "name": "Frederiksborg",
-            "code": "DK-020"
+        "020": {
+            "name": "Frederiksborg"
         },
-        "FU": {
-            "name": "Funen",
-            "code": "DK-042"
+        "042": {
+            "name": "Funen"
         },
-        "CO": {
-            "name": "Copenhagen",
-            "code": "DK-015"
+        "015": {
+            "name": "Copenhagen"
         },
-        "KC": {
-            "name": "København City",
-            "iso_code": "DK-101"
+        "101": {
+            "name": "København City"
         },
-        "NJ": {
-            "name": "North Jutland",
-            "code": "DK-080"
+        "080": {
+            "name": "North Jutland"
         },
-        "NJ": {
-            "name": "North Jutland",
-            "code": "DK-81"
+        "81": {
+            "name": "North Jutland"
         },
-        "RI": {
-            "name": "Ribe",
-            "iso_code": "DK-055"
+        "055": {
+            "name": "Ribe"
         },
-        "RIN": {
-            "name": "Ringkøbing",
-            "code": "DK-065"
+        "065": {
+            "name": "Ringkøbing"
         },
-        "RO": {
-            "name": "Roskilde",
-            "iso_code": "DK-025"
+        "025": {
+            "name": "Roskilde"
         },
-        "RSD": {
-            "name": "Region of Southern Denmark",
-            "code": "DK-83"
+        "83": {
+            "name": "Region of Southern Denmark"
         },
-        "SC": {
-            "name": "Storstrøm County",
-            "code": "DK-035"
+        "035": {
+            "name": "Storstrøm County"
         },
-        "SJ": {
-            "name": "Southern Jutland",
-            "code": "DK-050"
+        "050": {
+            "name": "Southern Jutland"
         },
-        "V": {
-            "name": "Vejle",
-            "iso_code": "DK-060"
+        "060": {
+            "name": "Vejle"
         },
-        "WZC": {
-            "name": "West Zealand County",
-            "code": "DK-030"
+        "030": {
+            "name": "West Zealand County"
         },
-        "VI": {
-            "name": "Viborg",
-            "code": "DK-076"
+        "076": {
+            "name": "Viborg"
         },
-        "Z": {
-            "name": "Zeeland",
-            "iso_code": "DK-85"
+        "85": {
+            "name": "Zeeland"
         },
-        "A": {
-            "name": "Aarhus",
-            "code": "DK-070"
+        "070": {
+            "name": "Aarhus"
         }
     }
 }
