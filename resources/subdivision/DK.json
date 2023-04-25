@@ -1,110 +1,89 @@
 {
     "country_code": "DK",
     "subdivisions": {
-        "Bornholm": {
+        "B": {
             "name": "Bornholm",
-            "iso_code": "DK-040",
-            "level": "county"
+            "code": "DK-040"
         },
-        "Capital": {
+        "CA": {
             "name": "Capital",
-            "iso_code": "DK-84",
-            "level": "region"
+            "code": "DK-84"
         },
-        "Central Denmark Region": {
+        "CDR": {
             "name": "Central Denmark Region",
-            "iso_code": "DK-82",
-            "level": "region"
+            "code": "DK-82"
         },
-        "Frederiksberg City": {
+        "FC": {
             "name": "Frederiksberg City",
-            "iso_code": "DK-147",
-            "level": "city"
+            "code": "DK-147"
         },
-        "Frederiksborg": {
-            "name": "Bornholm",
-            "iso_code": "DK-020",
-            "level": "county"
+        "F": {
+            "name": "Frederiksborg",
+            "code": "DK-020"
         },
-        "Funen": {
+        "FU": {
             "name": "Funen",
-            "iso_code": "DK-042",
-            "level": "county"
+            "code": "DK-042"
         },
-        "Copenhagen": {
+        "CO": {
             "name": "Copenhagen",
-            "iso_code": "DK-015",
-            "level": "county"
+            "code": "DK-015"
         },
-        "København City": {
+        "KC": {
             "name": "København City",
-            "iso_code": "DK-101",
-            "level": "city"
+            "iso_code": "DK-101"
         },
-        "North Jutland": {
+        "NJ": {
             "name": "North Jutland",
-            "iso_code": "DK-080",
-            "level": "county"
+            "code": "DK-080"
         },
-        "North Jutland": {
+        "NJ": {
             "name": "North Jutland",
-            "iso_code": "DK-81",
-            "level": "region"
+            "code": "DK-81"
         },
-        "Ribe": {
-            "name": "Bornholm",
-            "iso_code": "DK-055",
-            "level": "county"
+        "RI": {
+            "name": "Ribe",
+            "iso_code": "DK-055"
         },
-        "Ringkøbing": {
-            "name": "Bornholm",
-            "iso_code": "DK-065",
-            "level": "county"
+        "RIN": {
+            "name": "Ringkøbing",
+            "code": "DK-065"
         },
-        "Roskilde": {
-            "name": "Bornholm",
-            "iso_code": "DK-025",
-            "level": "county"
+        "RO": {
+            "name": "Roskilde",
+            "iso_code": "DK-025"
         },
-        "Region of Southern Denmark": {
+        "RSD": {
             "name": "Region of Southern Denmark",
-            "iso_code": "DK-83",
-            "level": "region"
+            "code": "DK-83"
         },
-        "Storstrøm County": {
+        "SC": {
             "name": "Storstrøm County",
-            "iso_code": "DK-035",
-            "level": "county"
+            "code": "DK-035"
         },
-        "Southern Jutland": {
+        "SJ": {
             "name": "Southern Jutland",
-            "iso_code": "DK-050",
-            "level": "county"
+            "code": "DK-050"
         },
-        "Vejle": {
-            "name": "Bornholm",
-            "iso_code": "DK-060",
-            "level": "county"
+        "V": {
+            "name": "Vejle",
+            "iso_code": "DK-060"
         },
-        "West Zealand County": {
+        "WZC": {
             "name": "West Zealand County",
-            "iso_code": "DK-030",
-            "level": "county"
+            "code": "DK-030"
         },
-        "Viborg": {
+        "VI": {
             "name": "Viborg",
-            "iso_code": "DK-076",
-            "level": "county"
+            "code": "DK-076"
         },
-        "Zeeland": {
+        "Z": {
             "name": "Zeeland",
-            "iso_code": "DK-85",
-            "level": "region"
+            "iso_code": "DK-85"
         },
-        "Aarhus": {
+        "A": {
             "name": "Aarhus",
-            "iso_code": "DK-070",
-            "level": "county"
+            "code": "DK-070"
         }
     }
 }
