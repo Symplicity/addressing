@@ -1,0 +1,110 @@
+{
+    "country_code": "DK",
+    "subdivisions": {
+        "Bornholm": {
+            "name": "Bornholm",
+            "iso_code": "DK-040",
+            "level": "county"
+        },
+        "Capital": {
+            "name": "Capital",
+            "iso_code": "DK-84",
+            "level": "region"
+        },
+        "Central Denmark Region": {
+            "name": "Central Denmark Region",
+            "iso_code": "DK-82",
+            "level": "region"
+        },
+        "Frederiksberg City": {
+            "name": "Frederiksberg City",
+            "iso_code": "DK-147",
+            "level": "city"
+        },
+        "Frederiksborg": {
+            "name": "Bornholm",
+            "iso_code": "DK-020",
+            "level": "county"
+        },
+        "Funen": {
+            "name": "Funen",
+            "iso_code": "DK-042",
+            "level": "county"
+        },
+        "Copenhagen": {
+            "name": "Copenhagen",
+            "iso_code": "DK-015",
+            "level": "county"
+        },
+        "København City": {
+            "name": "København City",
+            "iso_code": "DK-101",
+            "level": "city"
+        },
+        "North Jutland": {
+            "name": "North Jutland",
+            "iso_code": "DK-080",
+            "level": "county"
+        },
+        "North Jutland": {
+            "name": "North Jutland",
+            "iso_code": "DK-81",
+            "level": "region"
+        },
+        "Ribe": {
+            "name": "Bornholm",
+            "iso_code": "DK-055",
+            "level": "county"
+        },
+        "Ringkøbing": {
+            "name": "Bornholm",
+            "iso_code": "DK-065",
+            "level": "county"
+        },
+        "Roskilde": {
+            "name": "Bornholm",
+            "iso_code": "DK-025",
+            "level": "county"
+        },
+        "Region of Southern Denmark": {
+            "name": "Region of Southern Denmark",
+            "iso_code": "DK-83",
+            "level": "region"
+        },
+        "Storstrøm County": {
+            "name": "Storstrøm County",
+            "iso_code": "DK-035",
+            "level": "county"
+        },
+        "Southern Jutland": {
+            "name": "Southern Jutland",
+            "iso_code": "DK-050",
+            "level": "county"
+        },
+        "Vejle": {
+            "name": "Bornholm",
+            "iso_code": "DK-060",
+            "level": "county"
+        },
+        "West Zealand County": {
+            "name": "West Zealand County",
+            "iso_code": "DK-030",
+            "level": "county"
+        },
+        "Viborg": {
+            "name": "Viborg",
+            "iso_code": "DK-076",
+            "level": "county"
+        },
+        "Zeeland": {
+            "name": "Zeeland",
+            "iso_code": "DK-85",
+            "level": "region"
+        },
+        "Aarhus": {
+            "name": "Aarhus",
+            "iso_code": "DK-070",
+            "level": "county"
+        }
+    }
+}
