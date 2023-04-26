@@ -372,11 +372,16 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'postal_code_pattern' => '\d{5}',
             ],
             'DK' => [
-                'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%addressLine3\n%postalCode %locality",
+                'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%addressLine3\n%administrativeArea\n%postalCode %locality",
                 'required_fields' => [
-                    'addressLine1', 'locality', 'postalCode',
+                    'addressLine1', 'locality', 'administrativeArea', 'postalCode',
                 ],
+                'uppercase_fields' => [
+                    'administrativeArea',
+                ],
+                'administrative_area_type' => 'state',
                 'postal_code_pattern' => '\d{4}',
+                'subdivision_depth' => 1,
             ],
             'DO' => [
                 'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%addressLine3\n%postalCode %locality",
