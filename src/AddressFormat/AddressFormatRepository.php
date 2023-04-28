@@ -324,8 +324,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                     'addressLine1', 'locality', 'administrativeArea',
                 ],
                 'uppercase_fields' => [
-                    "locality_type" => "city",
-                    "postal_code_type" => "postal"
+                    'administrativeArea',
                 ],
                 'administrative_area_type' => 'department',
                 'postal_code_pattern' => '\d{6}',
