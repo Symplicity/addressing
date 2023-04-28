@@ -163,7 +163,7 @@ class SubdivisionUpdater
               'Fujian Sheng' => 'FJ',
               'Gansu Sheng' => 'GS',
               'Guangdong Sheng' => 'GD',
-              'Guangxi Zhuangzuzizhiqu' => 'GX',
+              'Guangxi Zhuang' => 'GX',
               'Guizhou Sheng' => 'GZ',
               'Hainan Sheng' => 'HI',
               'Hebei Sheng' => 'HE',

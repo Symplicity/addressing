@@ -1,0 +1,37 @@
+{
+    "country_code": "GH",
+	"locale": "en",
+    "subdivisions":
+    {
+        "AH": {
+            "name": "Ashanti"
+        },
+        "BA": {
+            "name": "Brong-Ahafo Region"
+        },
+        "CP": {
+            "name": "Central"
+        },
+        "EP": {
+            "name": "Eastern"
+        },
+        "AA": {
+            "name": "Greater Accra Region"
+        },
+        "NP": {
+            "name": "Northern"
+        },
+        "UE": {
+            "name": "Upper East Region"
+        },
+        "UW": {
+            "name": "Upper West"
+        },
+        "TV": {
+            "name": "Volta"
+        },
+        "WP": {
+            "name": "Western"
+        }
+    }
+}

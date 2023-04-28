@@ -1,0 +1,56 @@
+{
+	"country_code": "NZ",
+	"subdivisions": {
+		"AUK": {
+			"name": "Auckland"
+		},
+		"BOP": {
+			"name": "Bay of Plenty"
+		},
+		"CAN": {
+			"name": "Canterbury"
+		},
+		"CIT": {
+			"name": "Chatham Islands"
+		},
+		"GIS": {
+			"name": "Gisborne"
+		},
+		"HKB": {
+			"name": "Hawke's Bay"
+		},
+		"MBH": {
+			"name": "Marlborough"
+		},
+		"MWT": {
+			"name": "Manawatu-Wanganui"
+		},
+		"NSN": {
+			"name": "Nelson"
+		},
+		"NTL": {
+			"name": "Northland"
+		},
+		"OTA": {
+			"name": "Otago"
+		},
+		"STL": {
+			"name": "Southland"
+		},
+		"TAS": {
+			"name": "Tasman"
+		},
+		"TKI": {
+			"name": "Taranaki"
+		},
+		"WGN": {
+			"name": "Wellington"
+		},
+		"WKO": {
+			"name": "Waikato"
+		},
+		"WTC": {
+			"name": "West Coast"
+		}
+	}
+}

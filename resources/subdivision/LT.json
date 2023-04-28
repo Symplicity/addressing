@@ -1,0 +1,215 @@
+{
+	"country_code": "LT",
+	"subdivisions": {
+		"01": {
+			"name": "Akmenė"
+		},
+		"02": {
+			"name": "Alytus Municipality"
+		},
+		"03": {
+			"name": "Alytus"
+		},
+		"04": {
+			"name": "Anykščiai"
+		},
+		"05": {
+			"name": "Birštonas"
+		},
+		"06": {
+			"name": "Biržai"
+		},
+		"07": {
+			"name": "Druskininkai"
+		},
+		"08": {
+			"name": "Elektrėnai"
+		},
+		"09": {
+			"name": "Ignalina"
+		},
+		"10": {
+			"name": "Jonava"
+		},
+		"11": {
+			"name": "Joniškis"
+		},
+		"12": {
+			"name": "Jurbarkas"
+		},
+		"13": {
+			"name": "Kaišiadorys"
+		},
+		"14": {
+			"name": "Kalvarija"
+		},
+		"15": {
+			"name": "Kauno Municipality"
+		},
+		"16": {
+			"name": "Kaunas"
+		},
+		"17": {
+			"name": "Kazlų Rūda"
+		},
+		"18": {
+			"name": "Kėdainiai"
+		},
+		"19": {
+			"name": "Kelmė"
+		},
+		"20": {
+			"name": "Klaipėdos Municipality"
+		},
+		"21": {
+			"name": "Klaipėda"
+		},
+		"22": {
+			"name": "Kretinga"
+		},
+		"23": {
+			"name": "Kupiškis"
+		},
+		"24": {
+			"name": "Lazdijai"
+		},
+		"25": {
+			"name": "Marijampolė"
+		},
+		"26": {
+			"name": "Mažeikiai"
+		},
+		"27": {
+			"name": "Molėtai"
+		},
+		"28": {
+			"name": "Neringa"
+		},
+		"29": {
+			"name": "Pagėgiai"
+		},
+		"30": {
+			"name": "Pakruojis"
+		},
+		"31": {
+			"name": "Palanga"
+		},
+		"32": {
+			"name": "Panevėžio Municipality"
+		},
+		"33": {
+			"name": "Panevėžys"
+		},
+		"34": {
+			"name": "Pasvalys"
+		},
+		"35": {
+			"name": "Plungė"
+		},
+		"36": {
+			"name": "Prienai"
+		},
+		"37": {
+			"name": "Radviliškis"
+		},
+		"38": {
+			"name": "Raseiniai"
+		},
+		"39": {
+			"name": "Rietavas"
+		},
+		"40": {
+			"name": "Rokiškis"
+		},
+		"41": {
+			"name": "Šakiai"
+		},
+		"42": {
+			"name": "Šalčininkai"
+		},
+		"43": {
+			"name": "Šiaulių Municipality"
+		},
+		"44": {
+			"name": "Šiauliai"
+		},
+		"45": {
+			"name": "Šilalė"
+		},
+		"46": {
+			"name": "Šilutė"
+		},
+		"47": {
+			"name": "Širvintos"
+		},
+		"48": {
+			"name": "Skuodas"
+		},
+		"49": {
+			"name": "Švenčionys"
+		},
+		"50": {
+			"name": "Tauragė"
+		},
+		"51": {
+			"name": "Telšiai"
+		},
+		"52": {
+			"name": "Trakai"
+		},
+		"53": {
+			"name": "Ukmergė"
+		},
+		"54": {
+			"name": "Utena"
+		},
+		"55": {
+			"name": "Varėna"
+		},
+		"56": {
+			"name": "Vilkaviškis"
+		},
+		"57": {
+			"name": "Vilniaus Municipality"
+		},
+		"58": {
+			"name": "Vilnius"
+		},
+		"59": {
+			"name": "Visaginas"
+		},
+		"60": {
+			"name": "Zarasai"
+		},
+		"AL": {
+			"name": "Alytus County"
+		},
+		"KL": {
+			"name": "Klaipėda County"
+		},
+		"KU": {
+			"name": "Kaunas County"
+		},
+		"MR": {
+			"name": "Marijampolė County"
+		},
+		"PN": {
+			"name": "Panevėžys County"
+		},
+		"SA": {
+			"name": "Šiauliai County"
+		},
+		"TA": {
+			"name": "Tauragė County"
+		},
+		"TE": {
+			"name": "Telšiai County"
+		},
+		"UT": {
+			"name": "Utena County"
+		},
+		"VL": {
+			"name": "Vilnius County"
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"country_code": "PG",
+	"subdivisions": {
+		"CPK": {
+			"name": "Chimbu"
+		},
+		"CPM": {
+			"name": "Central"
+		},
+		"EBR": {
+			"name": "East New Britain"
+		},
+		"EHG": {
+			"name": "Eastern Highlands"
+		},
+		"EPW": {
+			"name": "Enga"
+		},
+		"ESW": {
+			"name": "East Sepik"
+		},
+		"GPK": {
+			"name": "Gulf"
+		},
+		"HLA": {
+			"name": "Hela"
+		},
+		"JWK": {
+			"name": "Jiwaka"
+		},
+		"MBA": {
+			"name": "Milne Bay"
+		},
+		"MPL": {
+			"name": "Morobe"
+		},
+		"MPM": {
+			"name": "Madang"
+		},
+		"MRL": {
+			"name": "Manus"
+		},
+		"NCD": {
+			"name": "Port Moresby"
+		},
+		"NIK": {
+			"name": "New Ireland"
+		},
+		"NPP": {
+			"name": "Oro"
+		},
+		"NSB": {
+			"name": "Bougainville"
+		},
+		"SAN": {
+			"name": "Sandaun"
+		},
+		"SHM": {
+			"name": "Southern Highlands"
+		},
+		"WBK": {
+			"name": "West New Britain"
+		},
+		"WHM": {
+			"name": "Western Highlands"
+		},
+		"WPD": {
+			"name": "Western"
+		}
+	}
+}

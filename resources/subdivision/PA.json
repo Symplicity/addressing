@@ -1,0 +1,44 @@
+{
+	"country_code": "PA",
+	"subdivisions": {
+		"1": {
+			"name": "Bocas del Toro"
+		},
+		"2": {
+			"name": "Coclé"
+		},
+		"3": {
+			"name": "Colón"
+		},
+		"4": {
+			"name": "Chiriquí"
+		},
+		"5": {
+			"name": "Darién"
+		},
+		"6": {
+			"name": "Herrera"
+		},
+		"7": {
+			"name": "Los Santos"
+		},
+		"8": {
+			"name": "Panamá"
+		},
+		"9": {
+			"name": "Veraguas"
+		},
+		"10": {
+			"name": "Panamá Oeste"
+		},
+		"EM": {
+			"name": "Emberá"
+		},
+		"KY": {
+			"name": "Guna Yala"
+		},
+		"NB": {
+			"name": "Ngöbe-Buglé"
+		}
+	}
+}
