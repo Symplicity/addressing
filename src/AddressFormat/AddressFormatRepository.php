@@ -974,7 +974,6 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
             'MT' => [
                 'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%administrativeArea\n%locality %postalCode",
                 'required_fields' => [
-                    'givenName',
                     'addressLine1',
                     'locality',
                     'administrativeArea',
@@ -1104,7 +1103,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'subdivision_depth' => 1,
             ],
             'NZ' => [
-                "format" => "%recipient\n%organization\n%addressLine1\n%addressLine2\n%dependentLocality\n%locality %administrativeArea %postalCode",
+                "format" => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%dependentLocality\n%locality %administrativeArea %postalCode",
                 'required_fields' => [
                     'addressLine1', 'locality', 'postalCode',
                     'administrativeArea'
