@@ -1270,7 +1270,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'uppercase_fields' => [
                     'addressLine1', 'addressLine2', 'locality',
                 ],
-                'administrative_area_type' => 'oblast',
+                'administrative_area_type' => 'area',
                 'postal_code_pattern' => '\d{6}',
                 'subdivision_depth' => 1,
             ],
@@ -1480,7 +1480,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'required_fields' => [
                     'addressLine1', 'locality', 'postalCode',
                 ],
-                'administrative_area_type' => 'oblast',
+                'administrative_area_type' => 'area',
                 'postal_code_pattern' => '\d{5}',
                 'subdivision_depth' => 1,
             ],
