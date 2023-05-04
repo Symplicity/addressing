@@ -145,7 +145,7 @@ class SubdivisionRepository implements SubdivisionRepositoryInterface
         $this->definitions[$group] = [];
         if ($this->hasData($parents)) {
             $filename = $this->definitionPath . $group . '.json';
-            if ($rawDefinition = @file_get_contents($filename)) {
+            if (file_exists($filename) && ($rawDefinition = file_get_contents($filename))) {
                 $this->definitions[$group] = json_decode($rawDefinition, true);
                 $this->definitions[$group] = $this->processDefinitions($this->definitions[$group]);
             }
