@@ -28,17 +28,17 @@
 		"GD": {
 			"name": "Gracias a Dios"
 		},
-		"IB": {
-			"name": "Islas de la Bahía"
-		},
 		"IN": {
 			"name": "Intibucá"
 		},
-		"LE": {
-			"name": "Lempira"
+		"IB": {
+			"name": "Islas de la Bahía"
 		},
 		"LP": {
 			"name": "La Paz"
+		},
+		"LE": {
+			"name": "Lempira"
 		},
 		"OC": {
 			"name": "Ocotepeque"
