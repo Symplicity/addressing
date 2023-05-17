@@ -1,18 +1,6 @@
 {
 	"country_code": "UM",
 	"subdivisions": {
-		"67": {
-			"name": "Johnston Atoll"
-		},
-		"71": {
-			"name": "Midway Atoll"
-		},
-		"76": {
-			"name": "Navassa Island"
-		},
-		"79": {
-			"name": "Wake Island"
-		},
 		"81": {
 			"name": "Baker Island"
 		},
@@ -22,11 +10,23 @@
 		"86": {
 			"name": "Jarvis Island"
 		},
+		"67": {
+			"name": "Johnston Atoll"
+		},
 		"89": {
 			"name": "Kingman Reef"
 		},
+		"71": {
+			"name": "Midway Islands"
+		},
+		"76": {
+			"name": "Navassa Island"
+		},
 		"95": {
 			"name": "Palmyra Atoll"
+		},
+		"79": {
+			"name": "Wake Island"
 		}
 	}
 }
