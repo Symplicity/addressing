@@ -225,10 +225,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withDependentLocality(string $dependentLocality): ImmutableAddressInterface|Address
+    public function withDependentLocality(?string $dependentLocality): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->dependentLocality = $dependentLocality;
+        $new->dependentLocality = $dependentLocality ?? '';
 
         return $new;
     }
