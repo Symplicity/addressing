@@ -90,6 +90,27 @@ class SubdivisionRepository implements SubdivisionRepositoryInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function getIsoList(array $parents, string $locale = null): array
+    {
+        $definitions = $this->loadDefinitions($parents);
+        if (empty($definitions)) {
+            return [];
+        }
+
+        $definitionLocale = $definitions['locale'] ?? '';
+        $useLocalName = Locale::matchCandidates($locale, $definitionLocale);
+        $list = [];
+        $prefix = $definitions['country_code'] . '-';
+        foreach ($definitions['subdivisions'] as $id => $definition) {
+            $list[$prefix . $id] = $useLocalName ? $definition['local_name'] : $definition['name'];
+        }
+
+        return $list;
+    }
+
+    /**
      * Checks whether predefined subdivisions exist for the provided parents.
      *
      * @param array $parents The parents (country code, subdivision codes).
@@ -184,7 +205,6 @@ class SubdivisionRepository implements SubdivisionRepositoryInterface
                 $definition['local_code'] = $definition['local_name'];
             }
         }
-
         return $definitions;
     }
 
