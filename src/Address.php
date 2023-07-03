@@ -168,10 +168,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withCountryCode(string $countryCode): ImmutableAddressInterface|Address
+    public function withCountryCode(?string $countryCode): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->countryCode = $countryCode;
+        $new->countryCode = $countryCode ?? '';
 
         return $new;
     }
@@ -187,10 +187,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withAdministrativeArea(string $administrativeArea): ImmutableAddressInterface|Address
+    public function withAdministrativeArea(?string $administrativeArea): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->administrativeArea = $administrativeArea;
+        $new->administrativeArea = $administrativeArea ?? '';
 
         return $new;
     }
@@ -206,10 +206,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withLocality(string $locality): ImmutableAddressInterface|Address
+    public function withLocality(?string $locality): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->locality = $locality;
+        $new->locality = $locality ?? '';
 
         return $new;
     }
@@ -244,10 +244,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withPostalCode(string $postalCode): ImmutableAddressInterface|Address
+    public function withPostalCode(?string $postalCode): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->postalCode = $postalCode;
+        $new->postalCode = $postalCode ?? '';
 
         return $new;
     }
@@ -282,10 +282,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withAddressLine1(string $addressLine1): ImmutableAddressInterface|Address
+    public function withAddressLine1(?string $addressLine1): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->addressLine1 = $addressLine1;
+        $new->addressLine1 = $addressLine1 ?? '';
 
         return $new;
     }
@@ -415,10 +415,10 @@ class Address implements ImmutableAddressInterface
     /**
      * {@inheritdoc}
      */
-    public function withLocale(string $locale): ImmutableAddressInterface|Address
+    public function withLocale(?string $locale): ImmutableAddressInterface|Address
     {
         $new = clone $this;
-        $new->locale = $locale;
+        $new->locale = $locale ?? '';
 
         return $new;
     }
