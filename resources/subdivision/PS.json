@@ -1,9 +1,9 @@
 {
-	"country_code": "PS",
-	"parent_id": null,
-	"locale": "en",
-	"subdivisions": {
-		"PS-BTH": {
+    "country_code": "PS",
+    "parent_id": null,
+    "locale": "en",
+    "subdivisions": {
+        "PS-BTH": {
             "name": "Bethlehem Bayt Laḩm",
             "level": "governorates"
         },
@@ -67,5 +67,5 @@
             "name": "Tulkarm Ţūlkarm",
             "level": "governorates"
         }
-	}
+    }
 }
