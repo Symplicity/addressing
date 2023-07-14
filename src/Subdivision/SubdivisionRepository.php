@@ -104,7 +104,7 @@ class SubdivisionRepository implements SubdivisionRepositoryInterface
         $list = [];
         $prefix = $definitions['country_code'] . '-';
         foreach ($definitions['subdivisions'] as $id => $definition) {
-            $list[$prefix . $id] = $useLocalName ? $definition['local_name'] : $definition['name'];
+            $list[$prefix . ($definition['code_suffix'] ?? $id)] = $useLocalName ? $definition['local_name'] : $definition['name'];
         }
 
         return $list;
