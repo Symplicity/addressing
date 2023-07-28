@@ -1105,7 +1105,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'subdivision_depth' => 1,
             ],
             'NZ' => [
-                "format" => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%dependentLocality\n%locality %administrativeArea %postalCode",
+                "format" => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%dependentLocality\n%locality, %administrativeArea %postalCode",
                 'required_fields' => [
                     'addressLine1', 'locality', 'postalCode',
                     'administrativeArea'
@@ -1133,7 +1133,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'uppercase_fields' => [
                     'locality', 'administrativeArea',
                 ],
-                'administrative_area_type' => 'state',
+                'administrative_area_type' => 'province',
                 'subdivision_depth' => 1,
             ],
             'PE' => [
@@ -1557,7 +1557,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                 'postal_code_pattern' => 'VG\d{4}',
             ],
             'VI' => [
-                'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%addressLine3\n%locality %postalCode",
+                'format' => "%givenName %familyName\n%organization\n%addressLine1\n%addressLine2\n%addressLine3\n%locality, %administrativeArea %postalCode",
                 'required_fields' => [
                     'addressLine1', 'locality', 'postalCode',
                 ],
@@ -1565,6 +1565,7 @@ class AddressFormatRepository implements AddressFormatRepositoryInterface
                     'addressLine1', 'addressLine2', 'locality', 'familyName', 'additionalName', 'givenName', 'organization',
                 ],
                 'postal_code_type' => 'zip',
+                'administrative_area_type' => 'island',
                 'locality_type' => 'city',
                 'postal_code_pattern' => '(008(?:(?:[0-4]\d)|(?:5[01])))(?:[ \-](\d{4}))?',
                 'subdivision_depth' => 1
