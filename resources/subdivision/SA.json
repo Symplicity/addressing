@@ -1,0 +1,43 @@
+{
+	"country_code": "SA",
+	"parent_id": null,
+	"locale": "en",
+	"subdivisions": {
+		"SA-14": {
+			"name": "?Asir"
+		},
+		"SA-11": {
+			"name": "Al Bahah"
+		},
+		"SA-12": {
+			"name": "Al Jawf"
+		},
+		"SA-03": {
+			"name": "Al Madinah Province"
+		},
+		"SA-05": {
+			"name": "Al-Qassim Province"
+		},
+		"SA-08": {
+			"name": "Northern Borders Province"
+		},
+		"SA-01": {
+			"name": "Riyadh"
+		},
+		"SA-04": {
+			"name": "Ash Sharqiyah"
+		},
+		"SA-09": {
+			"name": "Jizan"
+		},
+		"SA-02": {
+			"name": "Mecca"
+		},
+		"SA-10": {
+			"name": "Najran"
+		},
+		"SA-07": {
+			"name": "Tabuk"
+		}
+	}
+}
