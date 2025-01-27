@@ -9,5 +9,6 @@
 	"uppercase_fields": [
 		"locality"
 	],
-	"administrative_area_type": "emirate"
+	"administrative_area_type": "emirate",
+	"locality_type": "city"
 }
