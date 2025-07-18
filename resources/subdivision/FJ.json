@@ -1,0 +1,66 @@
+{
+	"country_code": "FJ",
+	"parent_id": null,
+	"locale": "und",
+	{
+		"subdivisions": {
+			"FJ-C": {
+				"name": "Central"
+			},
+			"FJ-E": {
+				"name": "Eastern"
+			},
+			"FJ-N": {
+				"name": "Northern"
+			},
+			"FJ-W": {
+				"name": "Western"
+			},
+			"FJ-R": {
+				"name": "Rotuma"
+			},
+			"FJ-01": {
+				"name": "Ba"
+			},
+			"FJ-02": {
+				"name": "Bua"
+			},
+			"FJ-03": {
+				"name": "Cakaudrove"
+			},
+			"FJ-04": {
+				"name": "Kadavu"
+			},
+			"FJ-05": {
+				"name": "Lau"
+			},
+			"FJ-06": {
+				"name": "Lomaiviti"
+			},
+			"FJ-07": {
+				"name": "Macuata"
+			},
+			"FJ-08": {
+				"name": "Nadroga and Navosa"
+			},
+			"FJ-09": {
+				"name": "Naitasiri"
+			},
+			"FJ-10": {
+				"name": "Namosi"
+			},
+			"FJ-11": {
+				"name": "Ra"
+			},
+			"FJ-12": {
+				"name": "Rewa"
+			},
+			"FJ-13": {
+				"name": "Serua"
+			},
+			"FJ-14": {
+				"name": "Tailevu"
+			}
+		}
+	}
+}
