@@ -1,0 +1,78 @@
+{
+    "country_code": "NA",
+	"parent_id": null,
+	"locale": "en",
+    "subdivisions":
+    {
+        "NA-ER": {
+            "code": "NA-ER",
+            "name": "Erongo",
+            "level": "region"
+        },
+        "NA-HA": {
+            "code": "NA-HA",
+            "name": "Hardap",
+            "level": "region"
+        },
+        "NA-KA": {
+            "code": "NA-KA",
+            "name": "//Karas",
+            "level": "region"
+        },
+        "NA-KE": {
+            "code": "NA-KE",
+            "name": "Kavango East",
+            "level": "region"
+        },
+        "NA-KW": {
+            "code": "NA-KW",
+            "name": "Kavango West",
+            "level": "region"
+        },
+        "NA-KH": {
+            "code": "NA-KH",
+            "name": "Khomas",
+            "level": "region"
+        },
+        "NA-KU": {
+            "code": "NA-KU",
+            "name": "Kunene",
+            "level": "region"
+        },
+        "NA-OW": {
+            "code": "NA-OW",
+            "name": "Ohangwena",
+            "level": "region"
+        },
+        "NA-OH": {
+            "code": "NA-OH",
+            "name": "Omaheke",
+            "level": "region"
+        },
+        "NA-OS": {
+            "code": "NA-OS",
+            "name": "Omusati",
+            "level": "region"
+        },
+        "NA-ON": {
+            "code": "NA-ON",
+            "name": "Oshana",
+            "level": "region"
+        },
+        "NA-OT": {
+            "code": "NA-OT",
+            "name": "Oshikoto",
+            "level": "region"
+        },
+        "NA-OD": {
+            "code": "NA-OD",
+            "name": "Otjozondjupa",
+            "level": "region"
+        },
+        "NA-CA": {
+            "code": "NA-CA",
+            "name": "Zambezi",
+            "level": "region"
+        }
+    }
+}
