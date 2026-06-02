@@ -1,0 +1,118 @@
+{
+    "country_code": "GT",
+	"parent_id": null,
+	"locale": "en",
+    "subdivisions":
+    {
+        "GT-AV": {
+            "code": "GT-AV",
+            "name": "Alta Verapaz Department",
+            "level": "department"
+        },
+        "GT-BV": {
+            "code": "GT-BV",
+            "name": "Baja Verapaz Department",
+            "level": "department"
+        },
+        "GT-CM": {
+            "code": "GT-CM",
+            "name": "Chimaltenango",
+            "level": "department"
+        },
+        "GT-CQ": {
+            "code": "GT-CQ",
+            "name": "Chiquimula",
+            "level": "department"
+        },
+        "GT-PR": {
+            "code": "GT-PR",
+            "name": "El Progreso",
+            "level": "department"
+        },
+        "GT-ES": {
+            "code": "GT-ES",
+            "name": "Escuintla",
+            "level": "department"
+        },
+        "GT-GU": {
+            "code": "GT-GU",
+            "name": "Guatemala",
+            "level": "department"
+        },
+        "GT-HU": {
+            "code": "GT-HU",
+            "name": "Huehuetenango",
+            "level": "department"
+        },
+        "GT-IZ": {
+            "code": "GT-IZ",
+            "name": "Izabal",
+            "level": "department"
+        },
+        "GT-JA": {
+            "code": "GT-JA",
+            "name": "Jalapa",
+            "level": "department"
+        },
+        "GT-JU": {
+            "code": "GT-JU",
+            "name": "Jutiapa",
+            "level": "department"
+        },
+        "GT-PE": {
+            "code": "GT-PE",
+            "name": "Petén",
+            "level": "department"
+        },
+        "GT-QZ": {
+            "code": "GT-QZ",
+            "name": "Quetzaltenango",
+            "level": "department"
+        },
+        "GT-QC": {
+            "code": "GT-QC",
+            "name": "Quiche",
+            "level": "department"
+        },
+        "GT-RE": {
+            "code": "GT-RE",
+            "name": "Retalhuleu",
+            "level": "department"
+        },
+        "GT-SA": {
+            "code": "GT-SA",
+            "name": "Sacatepéquez",
+            "level": "department"
+        },
+        "GT-SM": {
+            "code": "GT-SM",
+            "name": "San Marcos",
+            "level": "department"
+        },
+        "GT-SR": {
+            "code": "GT-SR",
+            "name": "Santa Rosa",
+            "level": "department"
+        },
+        "GT-SO": {
+            "code": "GT-SO",
+            "name": "Sololá",
+            "level": "department"
+        },
+        "GT-SU": {
+            "code": "GT-SU",
+            "name": "Suchitepéquez Department",
+            "level": "department"
+        },
+        "GT-TO": {
+            "code": "GT-TO",
+            "name": "Totonicapán",
+            "level": "department"
+        },
+        "GT-ZA": {
+            "code": "GT-ZA",
+            "name": "Zacapa",
+            "level": "department"
+        }
+    }
+}
