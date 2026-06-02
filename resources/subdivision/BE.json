@@ -1,0 +1,73 @@
+{
+    "country_code": "BE",
+	"parent_id": null,
+	"locale": "en",
+    "subdivisions":
+    {
+        "BE-BRU": {
+            "code": "BE-BRU",
+            "name": "Brussels",
+            "level": "region"
+        },
+        "BE-VLG": {
+            "code": "BE-VLG",
+            "name": "Flanders",
+            "level": "region"
+        },
+        "BE-WAL": {
+            "code": "BE-WAL",
+            "name": "Wallonia",
+            "level": "region"
+        },
+        "BE-VAN": {
+            "code": "BE-VAN",
+            "name": "Antwerpen",
+            "level": "province"
+        },
+        "BE-WBR": {
+            "code": "BE-WBR",
+            "name": "Brabant wallon",
+            "level": "province"
+        },
+        "BE-WHT": {
+            "code": "BE-WHT",
+            "name": "Hainaut",
+            "level": "province"
+        },
+        "BE-WLG": {
+            "code": "BE-WLG",
+            "name": "Liège",
+            "level": "province"
+        },
+        "BE-VLI": {
+            "code": "BE-VLI",
+            "name": "Limburg",
+            "level": "province"
+        },
+        "BE-WLX": {
+            "code": "BE-WLX",
+            "name": "Luxembourg",
+            "level": "province"
+        },
+        "BE-WNA": {
+            "code": "BE-WNA",
+            "name": "Namur",
+            "level": "province"
+        },
+        "BE-VOV": {
+            "code": "BE-VOV",
+            "name": "Oost-Vlaanderen",
+            "level": "province"
+        },
+        "BE-VBR": {
+            "code": "BE-VBR",
+            "name": "Vlaams-Brabant",
+            "level": "province"
+        },
+        "BE-VWV": {
+            "code": "BE-VWV",
+            "name": "West-Vlaanderen",
+            "level": "province"
+        }
+    }
+}
