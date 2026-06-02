@@ -1,0 +1,38 @@
+{
+    "country_code": "CY",
+	"parent_id": null,
+	"locale": "en",
+    "subdivisions":
+    {
+        "CY-01": {
+            "code": "CY-01",
+            "name": "Nicosia",
+            "level": "district"
+        },
+        "CY-02": {
+            "code": "CY-02",
+            "name": "Limassol",
+            "level": "district"
+        },
+        "CY-03": {
+            "code": "CY-03",
+            "name": "Larnaca",
+            "level": "district"
+        },
+        "CY-04": {
+            "code": "CY-04",
+            "name": "Famagusta",
+            "level": "district"
+        },
+        "CY-05": {
+            "code": "CY-05",
+            "name": "Paphos",
+            "level": "district"
+        },
+        "CY-06": {
+            "code": "CY-06",
+            "name": "Kyrenia",
+            "level": "district"
+        }
+    }
+}
