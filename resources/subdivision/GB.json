@@ -1,0 +1,23 @@
+{
+        "country_code": "GB",
+        "parent_id": null,
+        "locale": "und",
+        "subdivisions": {
+                "GB-ENG": {
+                        "code": "ENG",
+                        "name": "England"
+                },
+                "GB-NIR": {
+                        "code": "NIR",
+                        "name": "Northern Ireland"
+                },
+                "GB-SCT": {
+                        "code": "SCT",
+                        "name": "Scotland"
+                },
+                "GB-WLS": {
+                        "code": "WLS",
+                        "name": "Wales"
+                }
+        }
+}
