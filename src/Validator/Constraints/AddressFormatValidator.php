@@ -45,7 +45,7 @@ class AddressFormatValidator extends ConstraintValidator
     /**
      * {@inheritdoc}
      */
-    public function validate($value, Constraint $constraint)
+    public function validate(mixed $value, Constraint $constraint): void
     {
         if (!($value instanceof AddressInterface)) {
             throw new UnexpectedTypeException($value, 'AddressInterface');

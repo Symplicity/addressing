@@ -30,7 +30,7 @@ class CountryValidator extends ConstraintValidator
     /**
      * {@inheritdoc}
      */
-    public function validate($value, Constraint $constraint)
+    public function validate(mixed $value, Constraint $constraint): void
     {
         if ($value === null || $value === '') {
             return;

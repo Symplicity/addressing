@@ -4,11 +4,12 @@ namespace CommerceGuys\Addressing\Tests\Repository;
 
 use CommerceGuys\Addressing\Repository\SubdivisionRepository;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Repository\SubdivisionRepository
  */
-class SubdivisionRepositoryTest extends \PHPUnit_Framework_TestCase
+class SubdivisionRepositoryTest extends TestCase
 {
     /**
      * Subdivisions.
@@ -215,5 +216,23 @@ class SubdivisionRepositoryTest extends \PHPUnit_Framework_TestCase
         $list = $subdivisionRepository->getList('BR', 'BR-SC');
         $expectedList = ['BR-SC-9c7753' => 'Abelardo Luz'];
         $this->assertEquals($expectedList, $list);
+    }
+
+    /**
+     * Reads a (possibly non-public) property from an object via reflection.
+     *
+     * Replacement for PHPUnit's removed getObjectAttribute() helper.
+     *
+     * @param object $object
+     * @param string $attributeName
+     *
+     * @return mixed
+     */
+    protected function getObjectAttribute($object, $attributeName)
+    {
+        $property = new \ReflectionProperty(get_class($object), $attributeName);
+        $property->setAccessible(true);
+
+        return $property->getValue($object);
     }
 }

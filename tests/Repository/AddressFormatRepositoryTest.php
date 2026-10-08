@@ -9,11 +9,12 @@ use CommerceGuys\Addressing\Enum\LocalityType;
 use CommerceGuys\Addressing\Enum\PostalCodeType;
 use CommerceGuys\Addressing\Repository\AddressFormatRepository;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Repository\AddressFormatRepository
  */
-class AddressFormatRepositoryTest extends \PHPUnit_Framework_TestCase
+class AddressFormatRepositoryTest extends TestCase
 {
     /**
      * Known address format.
@@ -157,5 +158,23 @@ class AddressFormatRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('ZZ', $addressFormats);
         $this->assertEquals($addressFormats['ES']->getCountryCode(), 'ES');
         $this->assertEquals($addressFormats['ZZ']->getCountryCode(), 'ZZ');
+    }
+
+    /**
+     * Reads a (possibly non-public) property from an object via reflection.
+     *
+     * Replacement for PHPUnit's removed getObjectAttribute() helper.
+     *
+     * @param object $object
+     * @param string $attributeName
+     *
+     * @return mixed
+     */
+    protected function getObjectAttribute($object, $attributeName)
+    {
+        $property = new \ReflectionProperty(get_class($object), $attributeName);
+        $property->setAccessible(true);
+
+        return $property->getValue($object);
     }
 }

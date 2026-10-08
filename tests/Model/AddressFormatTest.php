@@ -8,18 +8,19 @@ use CommerceGuys\Addressing\Enum\DependentLocalityType;
 use CommerceGuys\Addressing\Enum\LocalityType;
 use CommerceGuys\Addressing\Enum\PostalCodeType;
 use CommerceGuys\Addressing\Model\AddressFormat;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Model\AddressFormat
  */
-class AddressFormatTest extends \PHPUnit_Framework_TestCase
+class AddressFormatTest extends TestCase
 {
     /**
      * @var AddressFormat
      */
     protected $addressFormat;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->addressFormat = new AddressFormat();
     }

@@ -18,11 +18,11 @@ class CountryRepository implements CountryRepositoryInterface
     protected $countryRepository;
 
     /**
-     * The region bundle, if symfony/intl is used.
+     * Whether symfony/intl is used as the source of country data.
      *
-     * @var \Symfony\Component\Intl\ResourceBundle\RegionBundle
+     * @var bool
      */
-    protected $regionBundle;
+    protected $useSymfonyIntl = false;
 
     /**
      * Creates a CountryRepository instance.
@@ -31,8 +31,8 @@ class CountryRepository implements CountryRepositoryInterface
     {
         if (class_exists('\CommerceGuys\Intl\Country\CountryRepository')) {
             $this->countryRepository = new \CommerceGuys\Intl\Country\CountryRepository();
-        } elseif (class_exists('\Symfony\Component\Intl\Intl')) {
-            $this->regionBundle = \Symfony\Component\Intl\Intl::getRegionBundle();
+        } elseif (class_exists('\Symfony\Component\Intl\Countries')) {
+            $this->useSymfonyIntl = true;
         } else {
             throw new \RuntimeException('No source of country data found: symfony/intl or commerceguys/intl must be installed.');
         }
@@ -47,7 +47,7 @@ class CountryRepository implements CountryRepositoryInterface
             $countryNames = $this->countryRepository->getList($locale);
         } else {
             $locale = $this->canonicalizeLocale($locale);
-            $countryNames = $this->regionBundle->getCountryNames($locale);
+            $countryNames = \Symfony\Component\Intl\Countries::getNames($locale);
         }
 
         return $countryNames;

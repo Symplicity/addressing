@@ -7,11 +7,12 @@ use CommerceGuys\Addressing\Formatter\DefaultFormatter;
 use CommerceGuys\Addressing\Repository\AddressFormatRepository;
 use CommerceGuys\Addressing\Repository\CountryRepository;
 use CommerceGuys\Addressing\Repository\SubdivisionRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Formatter\DefaultFormatter
  */
-class DefaultFormatterTest extends \PHPUnit_Framework_TestCase
+class DefaultFormatterTest extends TestCase
 {
     /**
      * The address format repository.
@@ -44,7 +45,7 @@ class DefaultFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->addressFormatRepository = new AddressFormatRepository();
         $this->countryRepository = new CountryRepository();
@@ -67,6 +68,24 @@ class DefaultFormatterTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->addressFormatRepository, $this->getObjectAttribute($formatter, 'addressFormatRepository'));
         $this->assertEquals($this->countryRepository, $this->getObjectAttribute($formatter, 'countryRepository'));
         $this->assertEquals($this->subdivisionRepository, $this->getObjectAttribute($formatter, 'subdivisionRepository'));
+    }
+
+    /**
+     * Reads a (possibly non-public) property from an object via reflection.
+     *
+     * Replacement for PHPUnit's removed getObjectAttribute() helper.
+     *
+     * @param object $object
+     * @param string $attributeName
+     *
+     * @return mixed
+     */
+    protected function getObjectAttribute($object, $attributeName)
+    {
+        $property = new \ReflectionProperty(get_class($object), $attributeName);
+        $property->setAccessible(true);
+
+        return $property->getValue($object);
     }
 
     /**
@@ -97,10 +116,10 @@ class DefaultFormatterTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Addressing\Repository\AddressFormatRepository
      * @uses \CommerceGuys\Addressing\Repository\CountryRepository
      * @uses \CommerceGuys\Addressing\Repository\SubdivisionRepository
-     * @expectedException \InvalidArgumentException
      */
     public function testInvalidOption()
     {
+        $this->expectException(\InvalidArgumentException::class);
         $this->formatter->setOption('invalid', 'new value');
     }
 

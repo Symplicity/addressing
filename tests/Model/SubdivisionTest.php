@@ -5,11 +5,12 @@ namespace CommerceGuys\Addressing\Tests\Model;
 use CommerceGuys\Addressing\Enum\PatternType;
 use CommerceGuys\Addressing\Model\Subdivision;
 use Doctrine\Common\Collections\ArrayCollection;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Model\Subdivision
  */
-class SubdivisionTest extends \PHPUnit_Framework_TestCase
+class SubdivisionTest extends TestCase
 {
     /**
      * @var Subdivision
@@ -19,7 +20,7 @@ class SubdivisionTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subdivision = new Subdivision();
     }

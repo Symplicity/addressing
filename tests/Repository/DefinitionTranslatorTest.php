@@ -2,10 +2,12 @@
 
 namespace CommerceGuys\Addressing\Tests\Repository;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Repository\DefinitionTranslatorTrait
  */
-class DefinitionTranslatorTest extends \PHPUnit_Framework_TestCase
+class DefinitionTranslatorTest extends TestCase
 {
     /**
      * @var DummyRepository
@@ -24,7 +26,7 @@ class DefinitionTranslatorTest extends \PHPUnit_Framework_TestCase
         ],
     ];
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->repository = new DummyRepository();
     }

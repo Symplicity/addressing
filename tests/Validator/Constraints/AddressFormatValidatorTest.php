@@ -6,40 +6,29 @@ use CommerceGuys\Addressing\Enum\AddressField;
 use CommerceGuys\Addressing\Model\Address;
 use CommerceGuys\Addressing\Validator\Constraints\AddressFormat as AddressFormatConstraint;
 use CommerceGuys\Addressing\Validator\Constraints\AddressFormatValidator;
-use Symfony\Component\Validator\Tests\Constraints\AbstractConstraintValidatorTest;
+use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Validator\Constraints\AddressFormatValidator
  */
-class AddressFormatValidatorTest extends AbstractConstraintValidatorTest
+class AddressFormatValidatorTest extends ConstraintValidatorTestCase
 {
-    /**
-     * @var AddressFormatConstraint
-     */
-    protected $constraint;
-
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
+        parent::setUp();
         $this->constraint = new AddressFormatConstraint();
-
-        // The following code is copied from the parent setUp(), which isn't
-        // called to avoid the call to \Locale, which introduces a dependency
-        // on the intl extension (or symfony/intl).
-        $this->group = 'MyGroup';
-        $this->metadata = null;
-        $this->object = null;
-        $this->value = 'InvalidValue';
-        $this->root = 'root';
+        // The original tests use an empty property path. Reset it and rebuild
+        // the context (and re-inject it into the validator) so that violations
+        // are raised against paths like "[locality]".
         $this->propertyPath = '';
         $this->context = $this->createContext();
-        $this->validator = $this->createValidator();
         $this->validator->initialize($this->context);
     }
 
-    protected function createValidator()
+    protected function createValidator(): \Symfony\Component\Validator\ConstraintValidatorInterface
     {
         return new AddressFormatValidator();
     }
@@ -49,10 +38,10 @@ class AddressFormatValidatorTest extends AbstractConstraintValidatorTest
      *
      * @uses \CommerceGuys\Addressing\Repository\AddressFormatRepository
      * @uses \CommerceGuys\Addressing\Repository\SubdivisionRepository
-     * @expectedException \Symfony\Component\Validator\Exception\UnexpectedTypeException
      */
     public function testInvalidValueType()
     {
+        $this->expectException(\Symfony\Component\Validator\Exception\UnexpectedTypeException::class);
         $this->validator->validate(new \stdClass(), $this->constraint);
     }
 

@@ -3,11 +3,12 @@
 namespace CommerceGuys\Addressing\Tests\Collection;
 
 use CommerceGuys\Addressing\Collection\LazySubdivisionCollection;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Collection\LazySubdivisionCollection
  */
-class LazySubdivisionCollectionTest extends \PHPUnit_Framework_TestCase
+class LazySubdivisionCollectionTest extends TestCase
 {
     /**
      * @var LazySubdivisionCollection
@@ -17,7 +18,7 @@ class LazySubdivisionCollectionTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->collection = new LazySubdivisionCollection('BR', 'BR-AC-6e6b33', 'pt');
     }
@@ -76,5 +77,23 @@ class LazySubdivisionCollectionTest extends \PHPUnit_Framework_TestCase
             ->getMock();
         $this->collection->setRepository($subdivisionRepository);
         $this->assertSame($subdivisionRepository, $this->collection->getRepository());
+    }
+
+    /**
+     * Reads a (possibly non-public) property from an object via reflection.
+     *
+     * Replacement for PHPUnit's removed getObjectAttribute() helper.
+     *
+     * @param object $object
+     * @param string $attributeName
+     *
+     * @return mixed
+     */
+    protected function getObjectAttribute($object, $attributeName)
+    {
+        $property = new \ReflectionProperty(get_class($object), $attributeName);
+        $property->setAccessible(true);
+
+        return $property->getValue($object);
     }
 }

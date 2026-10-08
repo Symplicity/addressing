@@ -4,40 +4,29 @@ namespace CommerceGuys\Addressing\Tests\Validator\Constraints;
 
 use CommerceGuys\Addressing\Validator\Constraints\Country as CountryConstraint;
 use CommerceGuys\Addressing\Validator\Constraints\CountryValidator;
-use Symfony\Component\Validator\Tests\Constraints\AbstractConstraintValidatorTest;
+use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Validator\Constraints\CountryValidator
  */
-class CountryValidatorTest extends AbstractConstraintValidatorTest
+class CountryValidatorTest extends ConstraintValidatorTestCase
 {
-    /**
-     * @var CountryConstraint
-     */
-    protected $constraint;
-
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
+        parent::setUp();
         $this->constraint = new CountryConstraint();
-
-        // The following code is copied from the parent setUp(), which isn't
-        // called to avoid the call to \Locale, which introduces a dependency
-        // on the intl extension (or symfony/intl).
-        $this->group = 'MyGroup';
-        $this->metadata = null;
-        $this->object = null;
-        $this->value = 'InvalidValue';
-        $this->root = 'root';
+        // The original tests use an empty property path. Reset it and rebuild
+        // the context (and re-inject it into the validator) so that violations
+        // are raised against the empty path.
         $this->propertyPath = '';
         $this->context = $this->createContext();
-        $this->validator = $this->createValidator();
         $this->validator->initialize($this->context);
     }
 
-    protected function createValidator()
+    protected function createValidator(): \Symfony\Component\Validator\ConstraintValidatorInterface
     {
         return new CountryValidator();
     }
@@ -60,10 +49,10 @@ class CountryValidatorTest extends AbstractConstraintValidatorTest
      * @covers \CommerceGuys\Addressing\Validator\Constraints\CountryValidator
      *
      * @uses \CommerceGuys\Addressing\Repository\CountryRepository
-     * @expectedException \Symfony\Component\Validator\Exception\UnexpectedTypeException
      */
     public function testInvalidValueType()
     {
+        $this->expectException(\Symfony\Component\Validator\Exception\UnexpectedTypeException::class);
         $this->validator->validate(new \stdClass(), $this->constraint);
     }
 

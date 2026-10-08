@@ -20,9 +20,9 @@ class AddressFormat extends Constraint
     /**
      * {@inheritdoc}
      */
-    public function __construct($options = null)
+    public function __construct(mixed $options = null, ?array $groups = null, mixed $payload = null)
     {
-        parent::__construct($options);
+        parent::__construct($options, $groups, $payload);
 
         // Validate all fields by default.
         if (empty($this->fields)) {
@@ -33,7 +33,7 @@ class AddressFormat extends Constraint
     /**
      * {@inheritdoc}
      */
-    public function getTargets()
+    public function getTargets(): string|array
     {
         return self::CLASS_CONSTRAINT;
     }

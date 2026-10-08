@@ -7,11 +7,12 @@ use CommerceGuys\Addressing\Formatter\PostalLabelFormatter;
 use CommerceGuys\Addressing\Repository\AddressFormatRepository;
 use CommerceGuys\Addressing\Repository\CountryRepository;
 use CommerceGuys\Addressing\Repository\SubdivisionRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Addressing\Formatter\PostalLabelFormatter
  */
-class PostalLabelFormatterTest extends \PHPUnit_Framework_TestCase
+class PostalLabelFormatterTest extends TestCase
 {
     /**
      * The address format repository.
@@ -44,7 +45,7 @@ class PostalLabelFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->addressFormatRepository = new AddressFormatRepository();
         $this->countryRepository = new CountryRepository();
@@ -62,10 +63,10 @@ class PostalLabelFormatterTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Addressing\Repository\AddressFormatRepository
      * @uses \CommerceGuys\Addressing\Repository\CountryRepository
      * @uses \CommerceGuys\Addressing\Repository\SubdivisionRepository
-     * @expectedException \RuntimeException
      */
     public function testMissingOriginCountryCode()
     {
+        $this->expectException(\RuntimeException::class);
         $address = new Address();
         $this->formatter->format($address);
     }

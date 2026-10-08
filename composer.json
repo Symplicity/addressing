@@ -5,15 +5,15 @@
     "keywords": ["postal", "address", "internationalization", "localization"],
     "license": "MIT",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=8.1.0",
         "doctrine/collections": "~1.0",
         "commerceguys/enum": "~1.0"
     },
     "require-dev": {
         "symfony/validator": ">=2.3",
         "symfony/intl": ">=2.3",
-        "phpunit/phpunit": "~4.0",
-        "mikey179/vfsStream": "1.*",
+        "phpunit/phpunit": "9.5.*",
+        "mikey179/vfsstream": "1.6.*",
         "squizlabs/php_codesniffer": "2.*"
     },
     "suggest": {
