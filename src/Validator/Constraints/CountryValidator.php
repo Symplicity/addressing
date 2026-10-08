@@ -22,7 +22,7 @@ class CountryValidator extends ConstraintValidator
      *
      * @param CountryRepositoryInterface $countryRepository
      */
-    public function __construct(CountryRepositoryInterface $countryRepository = null)
+    public function __construct(?CountryRepositoryInterface $countryRepository = null)
     {
         $this->countryRepository = $countryRepository ?: new CountryRepository();
     }

@@ -36,7 +36,7 @@ class AddressFormatValidator extends ConstraintValidator
      * @param AddressFormatRepositoryInterface $addressFormatRepository
      * @param SubdivisionRepositoryInterface   $subdivisionRepository
      */
-    public function __construct(AddressFormatRepositoryInterface $addressFormatRepository = null, SubdivisionRepositoryInterface $subdivisionRepository = null)
+    public function __construct(?AddressFormatRepositoryInterface $addressFormatRepository = null, ?SubdivisionRepositoryInterface $subdivisionRepository = null)
     {
         $this->addressFormatRepository = $addressFormatRepository ?: new AddressFormatRepository();
         $this->subdivisionRepository = $subdivisionRepository ?: new SubdivisionRepository();

@@ -82,7 +82,7 @@ class CountryValidatorTest extends ConstraintValidatorTestCase
         $this->assertNoViolation();
     }
 
-    public function getValidCountries()
+    public static function getValidCountries()
     {
         return [
             ['GB'],

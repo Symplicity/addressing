@@ -13,7 +13,7 @@ interface SubdivisionEntityInterface extends SubdivisionInterface
      *
      * @return self
      */
-    public function setParent(SubdivisionEntityInterface $parent = null);
+    public function setParent(?SubdivisionEntityInterface $parent = null);
 
     /**
      * Sets the two-letter country code.

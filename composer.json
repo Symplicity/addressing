@@ -12,7 +12,7 @@
     "require-dev": {
         "symfony/validator": ">=2.3",
         "symfony/intl": ">=2.3",
-        "phpunit/phpunit": "9.5.*",
+        "phpunit/phpunit": "10.5.*",
         "mikey179/vfsstream": "1.6.*",
         "squizlabs/php_codesniffer": "2.*"
     },

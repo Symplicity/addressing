@@ -99,7 +99,7 @@ class Subdivision implements SubdivisionEntityInterface
     /**
      * {@inheritdoc}
      */
-    public function setParent(SubdivisionEntityInterface $parent = null)
+    public function setParent(?SubdivisionEntityInterface $parent = null)
     {
         $this->parent = $parent;
 
